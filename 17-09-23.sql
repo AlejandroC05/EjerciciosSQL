@@ -31,7 +31,7 @@ CREATE TABLE cliente(
     Diceccion VARCHAR (45),
     Departamento VARCHAR (40) NOT NULL,
     Pais VARCHAR (14) NOT NULL,
-    Empleado_Atiende VARCHAR (50) NOT NULL,
+    Empleado_Atiende INT NOT NULL,
     Creado TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
@@ -187,15 +187,15 @@ VALUES (1827351829, "Juan", "Martinez", "+573203456274", "martinezjuan@gmail.com
 INSERT INTO empleado (Documento, Nombre, Apellido, Telefono, Correo, Id_oficina, Jefe, Cargo)
 VALUES (2836483927, "Ana", "Fariñhez", "+573212459836", "ana3fariñez@gmail.com", 22, "Jonathan Lopez", "Supervisor");
 INSERT INTO empleado (Documento, Nombre, Apellido, Telefono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (1019837621, "Martin", "Rubiales", "+573232534332", "martinrubio3@outlook.com", 26, "Rodrigo Rivera", "Secretario");
+VALUES (1019830321, "Martin", "Rubiales", "+573232534332", "martinrubio3@outlook.com", 26, "Rodrigo Rivera", "Secretario");
 INSERT INTO empleado (Documento, Nombre, Apellido, Telefono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (1195278164, "Samanta", "Lopez", "+573116894573", "samantica20@gmail.com", 27, "Rodrigo Rivera", "Secretario");
+VALUES (1191078164, "Samanta", "Lopez", "+573116894573", "samantica20@gmail.com", 27, "Rodrigo Rivera", "Secretario");
 INSERT INTO empleado (Documento, Nombre, Apellido, Telefono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (1095893677, "Soliban", "Fernandez", "+573210495005", "luis_fernando@gmail.com", 29, "Rodrigo Rivera", "Secretario");
+VALUES (1015893677, "Soliban", "Fernandez", "+573210495005", "luis_fernando@gmail.com", 29, "Rodrigo Rivera", "Secretario");
 INSERT INTO empleado (Documento, Nombre, Apellido, Telefono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (1827351829, "Augusto", "Lara", "+573203456723", "agustoconmigolara@gmail.com", 28, "Jonathan Lopez", "Supervisor");
+VALUES (1827731829, "Augusto", "Lara", "+573203456723", "agustoconmigolara@gmail.com", 28, "Jonathan Lopez", "Supervisor");
 INSERT INTO empleado (Documento, Nombre, Apellido, Telefono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2836483927, "Maritza", "Agudelo", "+573182459836", "maritzafrijoles@gmail.com", 30, "Jonathan Lopez", "Supervisor");
+VALUES (2836483297, "Maritza", "Agudelo", "+573182459836", "maritzafrijoles@gmail.com", 30, "Jonathan Lopez", "Supervisor");
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
 VALUES (12345678, 'Juan', 'Pérez', '+573123456789', 'juan.perez@gmail.com', 30, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
@@ -205,7 +205,7 @@ VALUES (2345678901, 'Luis', 'González', '+573310123423', 'luis.gonzalez@gmail.c
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
 VALUES (7890123456, 'María', 'Rodríguez', '+573323456734', 'maria.rodriguez@gmail.com', 33, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678901, 'Carlos', 'García', '+573315678912', 'carlos.garcia@gmail.com', 34, 'Orlando Triana', 'Analista');
+VALUES (2345619901, 'Carlos', 'García', '+573315678912', 'carlos.garcia@gmail.com', 34, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
 VALUES (5678901234, 'Laura', 'Martínez', '+573318901223', 'laura.martinez@gmail.com', 35, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
@@ -217,132 +217,192 @@ VALUES (4567890123, 'Diego', 'Castro', '+573310123489', 'diego.castro@gmail.com'
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
 VALUES (8901234567, 'Natalia', 'Ramírez', '+573323456767', 'natalia.ramirez@gmail.com', 39, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (1234567890, 'Camila', 'Pérez', '+573315678923', 'camila.perez@gmail.com', 40, 'Orlando Triana', 'Analista');
+VALUES (1234562090, 'Camila', 'Pérez', '+573315678923', 'camila.perez@gmail.com', 40, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678901, 'Pablo', 'López', '+573318901212', 'pablo.lopez@gmail.com', 41, 'Jonathan Lopez', 'Analista');
+VALUES (2345618901, 'Pablo', 'López', '+573318901212', 'pablo.lopez@gmail.com', 41, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-INSERT (3456789012, 'Valentina', 'González', '+573123456767', 'valentina.gonzalez@gmail.com', 42, 'Rodrigo Rivera', 'Gerente');
+INSERT (3456299012, 'Valentina', 'González', '+573123456767', 'valentina.gonzalez@gmail.com', 42, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-INSERT (4567890123, 'Santiago', 'Rodríguez', '+573311234535', 'santiago.rodriguez@gmail.com', 43, 'Orlando Triana', 'Analista');
+INSERT (4567030123, 'Santiago', 'Rodríguez', '+573311234535', 'santiago.rodriguez@gmail.com', 43, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (5678901234, 'Martina', 'García', '+573310123443', 'martina.garcia@gmail.com', 44, 'Jonathan Lopez', 'Analista');
+VALUES (5693901234, 'Martina', 'García', '+573310123443', 'martina.garcia@gmail.com', 44, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (6789012345, 'Mateo', 'Martínez', '+573323456723', 'mateo.martinez@gmail.com', 45, 'Rodrigo Rivera', 'Gerente');
+VALUES (6789054345, 'Mateo', 'Martínez', '+573323456723', 'mateo.martinez@gmail.com', 45, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (7890123456, 'Sofía', 'Sánchez', '+573318901256', 'sofia.sanchez@gmail.com', 46, 'Orlando Triana', 'Analista');
+VALUES (7890123106, 'Sofía', 'Sánchez', '+573318901256', 'sofia.sanchez@gmail.com', 46, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (8901234567, 'Juan', 'Vargas', '+573123456745', 'juan.vargas@gmail.com', 47, 'Jonathan Lopez', 'Analista');
+VALUES (8901239567, 'Juan', 'Vargas', '+573123456745', 'juan.vargas@gmail.com', 47, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (9876543210, 'Ana', 'Castro', '+573311234545', 'ana.castro@gmail.com', 48, 'Rodrigo Rivera', 'Gerente');
+VALUES (9876510210, 'Ana', 'Castro', '+573311234545', 'ana.castro@gmail.com', 48, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (1234567890, 'Luis', 'Ramírez', '+573310123445', 'luis.ramirez@gmail.com', 49, 'Orlando Triana', 'Analista');
+VALUES (1024567890, 'Luis', 'Ramírez', '+573310123445', 'luis.ramirez@gmail.com', 49, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678901, 'María', 'Pérez', '+573323456711', 'maria.perez@gmail.com', 50, 'Jonathan Lopez', 'Analista');
+VALUES (2345488901, 'María', 'Pérez', '+573323456711', 'maria.perez@gmail.com', 50, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789012, 'Carlos', 'López', '+573315678610', 'carlos.lopez@gmail.com', 30, 'Rodrigo Rivera', 'Gerente');
+VALUES (3456781672, 'Carlos', 'López', '+573315678610', 'carlos.lopez@gmail.com', 30, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (4567890123, 'Laura', 'González', '+573318901900', 'laura.gonzalez@gmail.com', 31, 'Orlando Triana', 'Analista');
+VALUES (4567819123, 'Laura', 'González', '+573318901900', 'laura.gonzalez@gmail.com', 31, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (5678901234, 'Andrés', 'Martínez', '+573123456987', 'andres.martinez@gmail.com', 32, 'Jonathan Lopez', 'Analista');
+VALUES (5678912234, 'Andrés', 'Martínez', '+573123456987', 'andres.martinez@gmail.com', 32, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES(6789012345, 'Sofía', 'Sánchez', '+573311234948', 'sofia.sanchez@gmail.com', 33, 'Rodrigo Rivera', 'Gerente');
+VALUES(6789232345, 'Sofía', 'Sánchez', '+573311234948', 'sofia.sanchez@gmail.com', 33, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (7890123456, 'Diego', 'Vargas', '+573310123478', 'diego.vargas@gmail.com', 34, 'Orlando Triana', 'Analista');
+VALUES (7890121056, 'Diego', 'Vargas', '+573310123478', 'diego.vargas@gmail.com', 34, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (8901234567, 'Natalia', 'Castro', '+573323456710', 'natalia.castro@gmail.com', 35, 'Jonathan Lopez', 'Analista');
+VALUES (8901226567, 'Natalia', 'Castro', '+573323456710', 'natalia.castro@gmail.com', 35, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678901, 'Camila', 'Ramírez', '+573315678911', 'camila.ramirez@gmail.com', 36, 'Rodrigo Rivera', 'Gerente');
+VALUES (2345678191, 'Camila', 'Ramírez', '+573315678911', 'camila.ramirez@gmail.com', 36, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789012, 'Pablo', 'Pérez', '+573318911234', 'pablo.perez@gmail.com', 37, 'Orlando Triana', 'Analista');
+VALUES (3456789948, 'Pablo', 'Pérez', '+573318911234', 'pablo.perez@gmail.com', 37, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (4567890123, 'Valentina', 'López', '+573123756789', 'valentina.lopez@gmail.com', 38, 'Jonathan Lopez', 'Analista');
+VALUES (4567894823, 'Valentina', 'López', '+573123756789', 'valentina.lopez@gmail.com', 38, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (5678901234, 'Santiago', 'González', '+573311234567', 'santiago.gonzalez@gmail.com', 39, 'Rodrigo Rivera', 'Gerente');
+VALUES (5678904382, 'Santiago', 'González', '+573311234567', 'santiago.gonzalez@gmail.com', 39, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (6789012345, 'Martina', 'Rodríguez', '+573319123456', 'martina.rodriguez@gmail.com', 40, 'Orlando Triana', 'Analista');
+VALUES (67890129445, 'Martina', 'Rodríguez', '+573319123456', 'martina.rodriguez@gmail.com', 40, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (7890123456, 'Mateo', 'García', '+573323456789', 'mateo.garcia@gmail.com', 41, 'Jonathan Lopez', 'Analista');
+VALUES (7890963456, 'Mateo', 'García', '+573323456789', 'mateo.garcia@gmail.com', 41, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (8901234567, 'Sofía', 'Martínez', '+573315678901', 'sofia.martinez@gmail.com', 42, 'Rodrigo Rivera', 'Gerente');
+VALUES (8901233906, 'Sofía', 'Martínez', '+573315678901', 'sofia.martinez@gmail.com', 42, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (1234567890, 'Juan', 'Sánchez', '+573318901234', 'juan.sanchez@gmail.com', 43, 'Orlando Triana', 'Analista');
+VALUES (1234563850, 'Juan', 'Sánchez', '+573318901234', 'juan.sanchez@gmail.com', 43, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789013, 'Ana', 'Martínez', '+573310987654', 'ana.martinez@gmail.com', 44, 'Jonathan Lopez', 'Analista'),
+VALUES (3456789013, 'Ana', 'Martínez', '+573310987654', 'ana.martinez@gmail.com', 44, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (4567890124, 'Carlos', 'Sánchez', '+573318765432', 'carlos.sanchez@gmail.com', 45, 'Rodrigo Rivera', 'Gerente'),
+VALUES (4567890124, 'Carlos', 'Sánchez', '+573318765432', 'carlos.sanchez@gmail.com', 45, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (5678901235, 'Laura', 'García', '+573323654321', 'laura.garcia@gmail.com', 46, 'Orlando Triana', 'Analista'),
+VALUES (5678901235, 'Laura', 'García', '+573323654321', 'laura.garcia@gmail.com', 46, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (6789012346, 'Andrés', 'Castro', '+573315543210', 'andres.castro@gmail.com', 47, 'Jonathan Lopez', 'Analista'),
+VALUES (6789012346, 'Andrés', 'Castro', '+573315543210', 'andres.castro@gmail.com', 47, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo) 
-VALUES (7890123457, 'Sofía', 'Ramírez', '+573311432109', 'sofia.ramirez@gmail.com', 48, 'Rodrigo Rivera', 'Gerente'),
+VALUES (7890123457, 'Sofía', 'Ramírez', '+573311432109', 'sofia.ramirez@gmail.com', 48, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (8901234568, 'Diego', 'Pérez', '+573312345678', 'diego.perez@gmail.com', 49, 'Orlando Triana', 'Analista'),
+VALUES (8901234568, 'Diego', 'Pérez', '+573312345678', 'diego.perez@gmail.com', 49, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (9876543219, 'Natalia', 'López', '+573319876543', 'natalia.lopez@gmail.com', 50, 'Jonathan Lopez', 'Analista'),
+VALUES (9876543219, 'Natalia', 'López', '+573319876543', 'natalia.lopez@gmail.com', 50, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678902, 'Camila', 'González', '+573314321098', 'camila.gonzalez@gmail.com', 30, 'Rodrigo Rivera', 'Gerente'),
+VALUES (2345678902, 'Camila', 'González', '+573314321098', 'camila.gonzalez@gmail.com', 30, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789014, 'Pablo', 'Martínez', '+573320987654', 'pablo.martinez@gmail.com', 31, 'Orlando Triana', 'Analista'),
+VALUES (3456789014, 'Pablo', 'Martínez', '+573320987654', 'pablo.martinez@gmail.com', 31, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (4567890125, 'Valentina', 'Sánchez', '+573326543210', 'valentina.sanchez@gmail.com', 32, 'Jonathan Lopez', 'Analista'),
+VALUES (4567890125, 'Valentina', 'Sánchez', '+573326543210', 'valentina.sanchez@gmail.com', 32, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (5678901236, 'Santiago', 'Castro', '+573314391098', 'santiago.castro@gmail.com', 33, 'Rodrigo Rivera', 'Gerente'),
+VALUES (5678901236, 'Santiago', 'Castro', '+573314391098', 'santiago.castro@gmail.com', 33, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (6789012347, 'Martina', 'Ramírez', '+573322109876', 'martina.ramirez@gmail.com', 34, 'Orlando Triana', 'Analista'),
+VALUES (6789012347, 'Martina', 'Ramírez', '+573322109876', 'martina.ramirez@gmail.com', 34, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (7890123458, 'Mateo', 'Pérez', '+573328765432', 'mateo.perez@gmail.com', 35, 'Jonathan Lopez', 'Analista'),
+VALUES (7890123458, 'Mateo', 'Pérez', '+573328765432', 'mateo.perez@gmail.com', 35, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (8901234569, 'Sofía', 'López', '+573313432109', 'sofia.lopez@gmail.com', 36, 'Rodrigo Rivera', 'Gerente'),
+VALUES (8901234569, 'Sofía', 'López', '+573313432109', 'sofia.lopez@gmail.com', 36, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (9876543220, 'Juan', 'González', '+573329876543', 'juan.gonzalez@gmail.com', 37, 'Orlando Triana', 'Analista'),
+VALUES (9876543220, 'Juan', 'González', '+573329876543', 'juan.gonzalez@gmail.com', 37, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678903, 'Ana', 'Martínez', '+573327654321', 'ana.martinez@gmail.com', 38, 'Jonathan Lopez', 'Analista'),
+VALUES (2345678903, 'Ana', 'Martínez', '+573327654321', 'ana.martinez@gmail.com', 38, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789015, 'Carlos', 'Sánchez', '+573313321098', 'carlos.sanchez@gmail.com', 39, 'Rodrigo Rivera', 'Gerente'),
+VALUES (3456789015, 'Carlos', 'Sánchez', '+573313321098', 'carlos.sanchez@gmail.com', 39, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (4567890126, 'Laura', 'García', '+573329432109', 'laura.garcia@gmail.com', 40, 'Orlando Triana', 'Analista'),
+VALUES (4567890126, 'Laura', 'García', '+573329432109', 'laura.garcia@gmail.com', 40, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (5678901237, 'Andrés', 'Castro', '+573327109876', 'andres.castro@gmail.com', 41, 'Jonathan Lopez', 'Analista'),
+VALUES (5678901237, 'Andrés', 'Castro', '+573327109876', 'andres.castro@gmail.com', 41, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (6789012348, 'Sofía', 'Ramírez', '+573322987654', 'sofia.ramirez@gmail.com', 42, 'Rodrigo Rivera', 'Gerente'),
+VALUES (6789012348, 'Sofía', 'Ramírez', '+573322987654', 'sofia.ramirez@gmail.com', 42, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (7890123459, 'Diego', 'Pérez', '+573318321098', 'diego.perez@gmail.com', 43, 'Orlando Triana', 'Analista'),
+VALUES (7890123459, 'Diego', 'Pérez', '+573318321098', 'diego.perez@gmail.com', 43, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (8901234570, 'Natalia', 'López', '+573329434109', 'natalia.lopez@gmail.com', 44, 'Jonathan Lopez', 'Analista'),
+VALUES (8901234570, 'Natalia', 'López', '+573329434109', 'natalia.lopez@gmail.com', 44, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678904, 'Camila', 'González', '+573327809876', 'camila.gonzalez@gmail.com', 45, 'Rodrigo Rivera', 'Gerente'),
+VALUES (2345678904, 'Camila', 'González', '+573327809876', 'camila.gonzalez@gmail.com', 45, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789016, 'Pablo', 'Martínez', '+573322187654', 'pablo.martinez@gmail.com', 46, 'Orlando Triana', 'Analista'),
+VALUES (3456789016, 'Pablo', 'Martínez', '+573322187654', 'pablo.martinez@gmail.com', 46, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (4567890127, 'Valentina', 'Sánchez', '+573368321098', 'valentina.sanchez@gmail.com', 47, 'Jonathan Lopez', 'Analista'),
+VALUES (4567890127, 'Valentina', 'Sánchez', '+573368321098', 'valentina.sanchez@gmail.com', 47, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (5678901238, 'Santiago', 'Castro', '+573329932109', 'santiago.castro@gmail.com', 48, 'Rodrigo Rivera', 'Gerente'),
+VALUES (5678901238, 'Santiago', 'Castro', '+573329932109', 'santiago.castro@gmail.com', 48, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (6789012349, 'Martina', 'Ramírez', '+573326987654', 'martina.ramirez@gmail.com', 49, 'Orlando Triana', 'Analista'),
+VALUES (6789012349, 'Martina', 'Ramírez', '+573326987654', 'martina.ramirez@gmail.com', 49, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (7890123460, 'Mateo', 'Pérez', '+573328321098', 'mateo.perez@gmail.com', 50, 'Jonathan Lopez', 'Analista'),
+VALUES (7890123460, 'Mateo', 'Pérez', '+573328321098', 'mateo.perez@gmail.com', 50, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (8901234571, 'Sofía', 'López', '+573322321098', 'sofia.lopez@gmail.com', 30, 'Rodrigo Rivera', 'Gerente'),
+VALUES (8901234571, 'Sofía', 'López', '+573322321098', 'sofia.lopez@gmail.com', 30, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (9876543221, 'Juan', 'González', '+573318109876', 'juan.gonzalez@gmail.com', 31, 'Orlando Triana', 'Analista'),
+VALUES (9876543221, 'Juan', 'González', '+573318109876', 'juan.gonzalez@gmail.com', 31, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678905, 'Ana', 'Martínez', '+573329232109', 'ana.martinez@gmail.com', 32, 'Jonathan Lopez', 'Analista'),
+VALUES (2345678905, 'Ana', 'Martínez', '+573329232109', 'ana.martinez@gmail.com', 32, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789017, 'Carlos', 'Sánchez', '+573328987654', 'carlos.sanchez@gmail.com', 33, 'Rodrigo Rivera', 'Gerente'),
+VALUES (3456789017, 'Carlos', 'Sánchez', '+573328987654', 'carlos.sanchez@gmail.com', 33, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
 VALUES (4567890128, 'Laura', 'García', '+573328721098', 'laura.garcia@gmail.com', 34, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (9876543222, 'Andrea', 'Sánchez', '+573319432111', 'andrea.sanchez@gmail.com', 50, 'Jonathan Lopez', 'Analista'),
+VALUES (9876543342, 'Andrea', 'Sánchez', '+573319432111', 'andrea.sanchez@gmail.com', 50, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (9876543222, 'Andrea', 'Sánchez', '+573319432109', 'andrea.sanchez@gmail.com', 35, 'Jonathan Lopez', 'Analista'),
+VALUES (9876543222, 'Andrea', 'Sánchez', '+573319432109', 'andrea.sanchez@gmail.com', 35, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (2345678906, 'Javier', 'Ramírez', '+573324987654', 'javier.ramirez@gmail.com', 36, 'Rodrigo Rivera', 'Gerente'),
+VALUES (2345678906, 'Javier', 'Ramírez', '+573324987654', 'javier.ramirez@gmail.com', 36, 'Rodrigo Rivera', 'Gerente');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (3456789018, 'Mónica', 'González', '+573322321192', 'monica.gonzalez@gmail.com', 37, 'Orlando Triana', 'Analista'),
+VALUES (3456789018, 'Mónica', 'González', '+573322321192', 'monica.gonzalez@gmail.com', 37, 'Orlando Triana', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
-VALUES (4567890129, 'Elena', 'Castro', '+573328109876', 'elena.castro@gmail.com', 38, 'Jonathan Lopez', 'Analista'),
+VALUES (4567890129, 'Elena', 'Castro', '+573328109876', 'elena.castro@gmail.com', 38, 'Jonathan Lopez', 'Analista');
 INSERT INTO empleado (Documento, Nombre, Apellido, Teléfono, Correo, Id_oficina, Jefe, Cargo)
 VALUES (5678901239, 'Carlos', 'Pérez', '+573324432109', 'carlos.perez@gmail.com', 39, 'Rodrigo Rivera', 'Gerente');
 
 
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('POINT SA', 'Ramiro', 'Sanchez', '+573124972396', 'Clle 4A Esquina #12-5', 'Huila', 'Colombia', 4567890128);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('ROWE SAS', 'Romeo', 'Santos', '+573111721104', 'Clle 2A #10-23', 'Huila', 'Colombia', 7890123460);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('ABEERD US', 'Fabian', 'Lopez', '+573102902329', 'Clle 1A B/Juan Pablo II', 'Huila', 'Colombia', 5678901238);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('ARIS LA', 'German', 'Rodriguez', '+573100862010', 'Clle 3A #89-10 B/Los Isrraelitas', 'Huila', 'Colombia', 4567890127);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('RANGERS SA', 'Verónica', 'Hurtado', '+573102820542', 'Clle 7A #10-10', 'Huila', 'Colombia', 3456789017);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('RIJEKA UA', 'Daniel', 'Lopez', '+573114921104', 'Clle 22 B/Centro', 'Huila', 'Colombia', 8901234570);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('LIMASSOL UT', 'Manuela', 'Rodriguez', '+573101102329', 'Clle 3A #20-11', 'Huila', 'Colombia', 9876510210);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('OSIJEK MMA', 'Juana', 'Sanchez', '+573100912010', 'Clle 5A Esquina', 'Huila', 'Colombia', 4567890129);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('KENNEDY RSK', 'Juan', 'Perez', '+573124970205', 'Clle 3A #12-5', 'Huila', 'Colombia', 5678901236);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('HAJDUK SAS', 'Estebean', 'Ramirez', '+573111729010', 'Cra 6 #10-11', 'Huila', 'Colombia', 890122656);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('CUCKARI UI', 'Samuel', 'Hurtado', '+573102900030', 'Clle 1A #19-3 B/Israelitas', 'Huila', 'Colombia', 4567894823);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('ISTRA SUA', 'Martin', 'Elías', '+573100862304', 'Clle 8A Diagonal', 'Huila', 'Colombia', 8901234571);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('CELTIC UAS', 'Luisa', 'Cáceres', '+573103950542', 'Clle 9A #10-10', 'Huila', 'Colombia', 1234562090);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('FAKEL ORG', 'Orlando', 'Sanchez', '+573114833104', 'Clle 1A #03-01 B/Fundadores', 'Huila', 'Colombia', 987654);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573102152329', 'Cra 10 #19-22', 'Huila', 'Colombia', 2836483297);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('PATRICKS LA', 'Leandro', 'Paredes', '+573100232010', 'Diagonal al centro, subiendo para arriba', 'Huila', 'Colombia', 2345619);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('YOUNG LTDA', 'Romeo', 'Castro', '+573102820909', 'Clle 3A #3CA', 'Huila', 'Colombia', 67890129445);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('NORDOST LTA', 'Cristian', 'Ramos', '+573157281290', 'Carretera de la soledad, kilómetro 7', 'Huila', 'Colombia', 8901234);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('ESTEDI LA', 'Roberto', 'Hernandez', '+573126731923', 'Camino la vida #4 B/Fin del mundo', 'Huila', 'Colombia', 9876543);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('Indiana Jeans', 'Rubiel', 'Castro', '+573102838909', 'Clle 3A #20-10', 'Huila', 'Colombia', 3456789);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('ODENSE RS', 'Fulanito', 'Sanchez', '+573115823030', 'Camino el sendero #1 B/Libertad ', 'Huila', 'Colombia', 5678904);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('STOKE SA', 'Fernando', 'Silva', '+573207892020', 'Clle fortuna B/Mala suerte', 'Huila', 'Colombia', 6789012);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('ARROGANTES LTDA', 'Esteban', 'Quito', '+573212983884', 'Clle la tranquilidad B/Desespero', 'Huila', 'Colombia', 7890123);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('WALSALL SAS', 'Roberto', 'Andrade', '+573152892021', 'Cra del susto B/Viernes 13', 'Huila', 'Colombia', 2345488);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('BARNET US', 'Camilo', 'Vargas', '+573115629023', 'Clle la felicidad B/Depreción', 'Huila', 'Colombia', 8901234567);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('GRIMSBY ULT', 'Salomon', 'Rondon', '+573122905076', 'Cra universitaria #2 B/Ineptitud', 'Huila', 'Colombia', 8901239567);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('BOLTON SA', 'Elver', 'Gadura', '+573102092012', 'Clle del olvido #2 B/El Recuerdo', 'Huila', 'Colombia', 4567890125);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('SWINDON', 'Victor', 'Tazo', '+573213903905', 'Clle del sueño B/Despertar', 'Huila', 'Colombia', 7890963456);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Diceccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('BROMISTAS USA', 'Ramon', 'Valdez', '+573229203920', 'Clle despilfarre B/Ahorro', 'Huila', 'Colombia', 9876543);
+INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
+VALUES ('JAMREED SA', 'Roberto', 'Gómez', '+573102920652', 'Clle 3A #18-43 B/Centro', 'Huila', 'Colombia', 2345678905);
