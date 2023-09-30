@@ -507,151 +507,151 @@ VALUES (5678908, 'Carlos', 'Pérez', '+573324432109', 'perez3@gmail.com', 39, 'R
 
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('POINT SA', 'Ramiro', 'Sanchez', '+573124972396', 'Clle 4A Esquina #12-5', 'Huila', 'Colombia', 5678908);
+VALUES ('POINT SA', 'Ramiro', 'Sanchez', '+573124972295', 'Clle 4A Esquina #12-5', 'Huila', 'Colombia', 5678908);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ROWE SAS', 'Romeo', 'Santos', '+573111721104', 'Clle 2A #10-23', 'Huila', 'Colombia', 4567519);
+VALUES ('ROWE SAS', 'Romeo', 'Santos', '+573111031104', 'Clle 2A #10-23', 'Huila', 'Colombia', 4567519);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ABEERD US', 'Fabian', 'Lopez', '+573102902329', 'Clle 1A B/Juan Pablo II', 'Huila', 'Colombia', 3455789);
+VALUES ('ABEERD US', 'Fabian', 'Lopez', '+573102102329', 'Clle 1A B/Juan Pablo II', 'Huila', 'Colombia', 3455789);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ARIS LA', 'German', 'Rodriguez', '+573100862010', 'Clle 3A #89-10 B/Los Isrraelitas', 'Huila', 'Colombia', 2341178);
+VALUES ('ARIS LA', 'German', 'Rodriguez', '+573100952010', 'Clle 3A #89-10 B/Los Isrraelitas', 'Huila', 'Colombia', 2341178);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('RANGERS SA', 'Verónica', 'Hurtado', '+573102820542', 'Clle 7A #10-10', 'Huila', 'Colombia', 9800543);
+VALUES ('RANGERS SA', 'Verónica', 'Hurtado', '+573102850542', 'Clle 7A #10-10', 'Huila', 'Colombia', 9800543);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('RIJEKA UA', 'Daniel', 'Lopez', '+573114921104', 'Clle 22 B/Centro', 'Huila', 'Colombia', 9805543);
+VALUES ('RIJEKA UA', 'Daniel', 'Lopez', '+573114291104', 'Clle 22 B/Centro', 'Huila', 'Colombia', 9805543);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('LIMASSOL UT', 'Manuela', 'Rodriguez', '+573101102329', 'Clle 3A #20-11', 'Huila', 'Colombia', 9876510);
+VALUES ('LIMASSOL UT', 'Manuela', 'Rodriguez', '+573101002329', 'Clle 3A #20-11', 'Huila', 'Colombia', 9876510);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('OSIJEK MMA', 'Juana', 'Sanchez', '+573100912010', 'Clle 5A Esquina', 'Huila', 'Colombia', 4565390);
+VALUES ('OSIJEK MMA', 'Juana', 'Sanchez', '+573100412010', 'Clle 5A Esquina', 'Huila', 'Colombia', 4565390);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('KENNEDY RSK', 'Juan', 'Perez', '+573124970205', 'Clle 3A #12-5', 'Huila', 'Colombia', 3458789);
+VALUES ('KENNEDY RSK', 'Juan', 'Perez', '+573124919205', 'Clle 3A #12-5', 'Huila', 'Colombia', 3458789);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('HAJDUK SAS', 'Estebean', 'Ramirez', '+573111729010', 'Cra 6 #10-11', 'Huila', 'Colombia', 8900134);
+VALUES ('HAJDUK SAS', 'Estebean', 'Ramirez', '+573120729010', 'Cra 6 #10-11', 'Huila', 'Colombia', 8900134);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('CUCKARI UI', 'Samuel', 'Hurtado', '+573102900030', 'Clle 1A #19-3 B/Israelitas', 'Huila', 'Colombia', 1093867);
+VALUES ('CUCKARI UI', 'Samuel', 'Hurtado', '+573101800030', 'Clle 1A #19-3 B/Israelitas', 'Huila', 'Colombia', 1093867);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ISTRA SUA', 'Martin', 'Elías', '+573100862304', 'Clle 8A Diagonal', 'Huila', 'Colombia', 2342378);
+VALUES ('ISTRA SUA', 'Martin', 'Elías', '+573100292304', 'Clle 8A Diagonal', 'Huila', 'Colombia', 2342378);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('CELTIC UAS', 'Luisa', 'Cáceres', '+573103950542', 'Clle 9A #10-10', 'Huila', 'Colombia', 1234562);
+VALUES ('CELTIC UAS', 'Luisa', 'Cáceres', '+573107550542', 'Clle 9A #10-10', 'Huila', 'Colombia', 1234562);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('FAKEL ORG', 'Orlando', 'Sanchez', '+573114833104', 'Clle 1A #03-01 B/Fundadores', 'Huila', 'Colombia', 2342078);
+VALUES ('FAKEL ORG', 'Orlando', 'Sanchez', '+573112933104', 'Clle 1A #03-01 B/Fundadores', 'Huila', 'Colombia', 2342078);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573102152329', 'Cra 10 #19-22', 'Huila', 'Colombia', 9812543);
+VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573101052329', 'Cra 10 #19-22', 'Huila', 'Colombia', 9812543);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('PATRICKS LA', 'Leandro', 'Paredes', '+573100232010', 'Diagonal al centro, subiendo para arriba', 'Huila', 'Colombia', 2345619);
+VALUES ('PATRICKS LA', 'Leandro', 'Paredes', '+573109532010', 'Diagonal al centro, subiendo para arriba', 'Huila', 'Colombia', 2345619);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('YOUNG LTDA', 'Romeo', 'Castro', '+573102820909', 'Clle 3A #3CA', 'Huila', 'Colombia', 7891123);
+VALUES ('YOUNG LTDA', 'Romeo', 'Castro', '+573102440909', 'Clle 3A #3CA', 'Huila', 'Colombia', 7891123);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('NORDOST LTA', 'Cristian', 'Ramos', '+573157281290', 'Carretera de la soledad, kilómetro 7', 'Huila', 'Colombia', 6711012);
+VALUES ('NORDOST LTA', 'Cristian', 'Ramos', '+573155681290', 'Carretera de la soledad, kilómetro 7', 'Huila', 'Colombia', 6711012);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ESTEDI LA', 'Roberto', 'Hernandez', '+573126731923', 'Camino la vida #4 B/Fin del mundo', 'Huila', 'Colombia', 5618901);
+VALUES ('ESTEDI LA', 'Roberto', 'Hernandez', '+573123431923', 'Camino la vida #4 B/Fin del mundo', 'Huila', 'Colombia', 5618901);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('Indiana Jeans', 'Rubiel', 'Castro', '+573102838909', 'Clle 3A #20-10', 'Huila', 'Colombia', 4567801);
+VALUES ('Indiana Jeans', 'Rubiel', 'Castro', '+573107138909', 'Clle 3A #20-10', 'Huila', 'Colombia', 4567801);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ODENSE RS', 'Fulanito', 'Sanchez', '+573115823030', 'Camino el sendero #1 B/Libertad ', 'Huila', 'Colombia', 5678904);
+VALUES ('ODENSE RS', 'Fulanito', 'Sanchez', '+573113023030', 'Camino el sendero #1 B/Libertad ', 'Huila', 'Colombia', 5678904);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('STOKE SA', 'Fernando', 'Silva', '+573207892020', 'Clle fortuna B/Mala suerte', 'Huila', 'Colombia', 3424789);
+VALUES ('STOKE SA', 'Fernando', 'Silva', '+573205392020', 'Clle fortuna B/Mala suerte', 'Huila', 'Colombia', 3424789);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ARROGANTES LTDA', 'Esteban', 'Quito', '+573212983884', 'Clle la tranquilidad B/Desespero', 'Huila', 'Colombia', 8903234);
+VALUES ('ARROGANTES LTDA', 'Esteban', 'Quito', '+573215983884', 'Clle la tranquilidad B/Desespero', 'Huila', 'Colombia', 8903234);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('WALSALL SAS', 'Roberto', 'Andrade', '+573152892021', 'Cra del susto B/Viernes 13', 'Huila', 'Colombia', 2345488);
+VALUES ('WALSALL SAS', 'Roberto', 'Andrade', '+573156392021', 'Cra del susto B/Viernes 13', 'Huila', 'Colombia', 2345488);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('BARNET US', 'Camilo', 'Vargas', '+573115629023', 'Clle la felicidad B/Depreción', 'Huila', 'Colombia', 7899923);
+VALUES ('BARNET US', 'Camilo', 'Vargas', '+573115649023', 'Clle la felicidad B/Depreción', 'Huila', 'Colombia', 7899923);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('GRIMSBY ULT', 'Salomon', 'Rondon', '+573122905076', 'Cra universitaria #2 B/Ineptitud', 'Huila', 'Colombia', 8901239);
+VALUES ('GRIMSBY ULT', 'Salomon', 'Rondon', '+573122355076', 'Cra universitaria #2 B/Ineptitud', 'Huila', 'Colombia', 8901239);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('BOLTON SA', 'Elver', 'Gadura', '+573102092012', 'Clle del olvido #2 B/El Recuerdo', 'Huila', 'Colombia', 6781212);
+VALUES ('BOLTON SA', 'Elver', 'Gadura', '+573107392012', 'Clle del olvido #2 B/El Recuerdo', 'Huila', 'Colombia', 6781212);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('SWINDON', 'Victor', 'Tazo', '+573213903905', 'Clle del sueño B/Despertar', 'Huila', 'Colombia', 7890963);
+VALUES ('SWINDON', 'Victor', 'Tazo', '+573213223905', 'Clle del sueño B/Despertar', 'Huila', 'Colombia', 7890963);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('BROMISTAS USA', 'Ramon', 'Valdez', '+573229203920', 'Clle despilfarre B/Ahorro', 'Huila', 'Colombia', 5677701);
+VALUES ('BROMISTAS USA', 'Ramon', 'Valdez', '+573221003920', 'Clle despilfarre B/Ahorro', 'Huila', 'Colombia', 5677701);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('JAMREED SA', 'Roberto', 'Gómez', '+573102920652', 'Clle 3A #18-43 B/Centro', 'Huila', 'Colombia', 4533890);
+VALUES ('JAMREED SA', 'Roberto', 'Gómez', '+573104920652', 'Clle 3A #18-43 B/Centro', 'Huila', 'Colombia', 4533890);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ROADCHESS', 'Horacio', 'Gomez', '+573117855674', 'Clle del robo B/Inseguridad', 'Huila', 'Colombia', 9879443);
+VALUES ('ROADCHESS', 'Horacio', 'Gomez', '+573117305674', 'Clle del robo B/Inseguridad', 'Huila', 'Colombia', 9879443);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ROADCHESS', 'Carlos', 'Villagrán', '+573152198510', 'Clle 23 #12-14 B/Centro', 'Huila', 'Colombia', 1138826);
+VALUES ('ROADCHESS', 'Carlos', 'Villagrán', '+573152378510', 'Clle 23 #12-14 B/Centro', 'Huila', 'Colombia', 1138826);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573102152329', 'Cra 10 #19-22', 'Huila', 'Colombia', 3906789);
+VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573101052329', 'Cra 10 #19-22', 'Huila', 'Colombia', 3906789);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('PATRICKS LA', 'Leandro', 'Paredes', '+573100232010', 'Diagonal al centro, subiendo para arriba', 'Huila', 'Colombia', 5519952);
+VALUES ('PATRICKS LA', 'Leandro', 'Paredes', '+573100222010', 'Diagonal al centro, subiendo para arriba', 'Huila', 'Colombia', 5519952);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('YOUNG LTDA', 'Romeo', 'Castro', '+573102820909', 'Clle 3A #3CA', 'Huila', 'Colombia', 2836483);
+VALUES ('YOUNG LTDA', 'Romeo', 'Castro', '+573101620909', 'Clle 3A #3CA', 'Huila', 'Colombia', 2836483);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('NORDOST LTA', 'Cristian', 'Ramos', '+573157281290', 'Carretera de la soledad, kilómetro 7', 'Huila', 'Colombia', 9873243);
+VALUES ('NORDOST LTA', 'Cristian', 'Ramos', '+573157661290', 'Carretera de la soledad, kilómetro 7', 'Huila', 'Colombia', 9873243);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ESTEDI LA', 'Roberto', 'Hernandez', '+573126731923', 'Camino la vida #4 B/Fin del mundo', 'Huila', 'Colombia', 1827731);
+VALUES ('ESTEDI LA', 'Roberto', 'Hernandez', '+573128731923', 'Camino la vida #4 B/Fin del mundo', 'Huila', 'Colombia', 1827731);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('Indiana Jeans', 'Rubiel', 'Castro', '+573102838909', 'Clle 3A #20-10', 'Huila', 'Colombia', 2309678);
+VALUES ('Indiana Jeans', 'Rubiel', 'Castro', '+573102518909', 'Clle 3A #20-10', 'Huila', 'Colombia', 2309678);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ODENSE RS', 'Fulanito', 'Sanchez', '+573115823030', 'Camino el sendero #1 B/Libertad ', 'Huila', 'Colombia', 9812543);
+VALUES ('ODENSE RS', 'Fulanito', 'Sanchez', '+573115343030', 'Camino el sendero #1 B/Libertad ', 'Huila', 'Colombia', 9812543);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('STOKE SA', 'Fernando', 'Silva', '+573207892020', 'Clle fortuna B/Mala suerte', 'Huila', 'Colombia', 6789054);
+VALUES ('STOKE SA', 'Fernando', 'Silva', '+573207002020', 'Clle fortuna B/Mala suerte', 'Huila', 'Colombia', 6789054);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ARROGANTES LTDA', 'Esteban', 'Quito', '+573212983884', 'Clle la tranquilidad B/Desespero', 'Huila', 'Colombia', 4561790);
+VALUES ('ARROGANTES LTDA', 'Esteban', 'Quito', '+573210383884', 'Clle la tranquilidad B/Desespero', 'Huila', 'Colombia', 4561790);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('WALSALL SAS', 'Roberto', 'Andrade', '+573152892021', 'Cra del susto B/Viernes 13', 'Huila', 'Colombia', 3456781);
+VALUES ('WALSALL SAS', 'Roberto', 'Andrade', '+573150692021', 'Cra del susto B/Viernes 13', 'Huila', 'Colombia', 3456781);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('BARNET US', 'Camilo', 'Vargas', '+573115629023', 'Clle la felicidad B/Depreción', 'Huila', 'Colombia', 1024567);
+VALUES ('BARNET US', 'Camilo', 'Vargas', '+573115608023', 'Clle la felicidad B/Depreción', 'Huila', 'Colombia', 1024567);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('GRIMSBY ULT', 'Salomon', 'Rondon', '+573122905076', 'Cra universitaria #2 B/Ineptitud', 'Huila', 'Colombia', 7890963);
+VALUES ('GRIMSBY ULT', 'Salomon', 'Rondon', '+573122909076', 'Cra universitaria #2 B/Ineptitud', 'Huila', 'Colombia', 7890963);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('BOLTON SA', 'Elver', 'Gadura', '+573102092012', 'Clle del olvido #2 B/El Recuerdo', 'Huila', 'Colombia', 8901233);
+VALUES ('BOLTON SA', 'Elver', 'Gadura', '+573102091312', 'Clle del olvido #2 B/El Recuerdo', 'Huila', 'Colombia', 8901233);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('SWINDON', 'Victor', 'Tazo', '+573213903905', 'Clle del sueño B/Despertar', 'Huila', 'Colombia', 4567890);
+VALUES ('SWINDON', 'Victor', 'Tazo', '+573212903905', 'Clle del sueño B/Despertar', 'Huila', 'Colombia', 4567890);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('BROMISTAS USA', 'Ramon', 'Valdez', '+573229203920', 'Clle despilfarre B/Ahorro', 'Huila', 'Colombia', 6781012);
+VALUES ('BROMISTAS USA', 'Ramon', 'Valdez', '+573229113920', 'Clle despilfarre B/Ahorro', 'Huila', 'Colombia', 6781012);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('JAMREED SA', 'Roberto', 'Gómez', '+573102920652', 'Clle 3A #18-43 B/Centro', 'Huila', 'Colombia', 1095893);
+VALUES ('JAMREED SA', 'Roberto', 'Gómez', '+573101320652', 'Clle 3A #18-43 B/Centro', 'Huila', 'Colombia', 1095893);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ROADCHESS', 'Horacio', 'Gomez', '+573117855674', 'Clle del robo B/Inseguridad', 'Huila', 'Colombia', 1038289);
+VALUES ('ROADCHESS', 'Horacio', 'Gomez', '+573117575674', 'Clle del robo B/Inseguridad', 'Huila', 'Colombia', 1038289);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ROADCHESS', 'Carlos', 'Villagrán', '+573152198510', 'Clle 23 #12-14 B/Centro', 'Huila', 'Colombia', 4567394);
+VALUES ('ROADCHESS', 'Carlos', 'Villagrán', '+573152888510', 'Clle 23 #12-14 B/Centro', 'Huila', 'Colombia', 4567394);
