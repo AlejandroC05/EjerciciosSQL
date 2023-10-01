@@ -1,5 +1,14 @@
 /* Teoría de conjuntos */
 
+/* 
+
+DELETE FROM nombre_tabla;
+Sirve para eliminar los registros de una tabla sin necesidad de 
+
+
+
+*/
+
 CREATE DATABASE comercial;
 
 CREATE TABLE oficinas(
@@ -56,10 +65,10 @@ INSERT INTO oficinas (Ciudad, Telefono, Direccion, Departamento, Pais)
 VALUES ('Garzón', '+573012546785', 'Clle 1A #15-35 B/Juan Pablo II', 'Huila', 'Colombia');
 
 INSERT INTO oficinas (Ciudad, Telefono, Direccion, Departamento, Pais)
-VALUES ('Garzón', '+573153382173', 'Cl. 8 #7-2 a 7-104 B/Centro', 'Huila', 'Colombia');
+VALUES ('Garzón', ' +573153382173', 'Cl. 8 #7-2 a 7-104 B/Centro', 'Huila', 'Colombia');
 
 INSERT INTO oficinas (Ciudad, Telefono, Direccion, Departamento, Pais)
-VALUES ('Garzón', '+573123567894', 'Cl. 9 #8-7', 'Huila', 'Colombia');
+VALUES ('Garzón', ' +573123567894', 'Cl. 9 #8-7', 'Huila', 'Colombia');
 
 INSERT INTO oficinas (Ciudad, Telefono, Direccion, Departamento, Pais)
 VALUES ('Garzón', '+573114531212', 'Cl. 3 #4-153 a 4-1', 'Huila', 'Colombia');
@@ -549,7 +558,7 @@ INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departament
 VALUES ('FAKEL ORG', 'Orlando', 'Sanchez', '+573112933104', 'Clle 1A #03-01 B/Fundadores', 'Huila', 'Colombia', 2342078);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573101052329', 'Cra 10 #19-22', 'Huila', 'Colombia', 9812543);
+VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573101702329', 'Cra 10 #19-22', 'Huila', 'Colombia', 9812543);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
 VALUES ('PATRICKS LA', 'Leandro', 'Paredes', '+573109532010', 'Diagonal al centro, subiendo para arriba', 'Huila', 'Colombia', 2345619);
@@ -600,7 +609,7 @@ INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departament
 VALUES ('ROADCHESS', 'Horacio', 'Gomez', '+573117305674', 'Clle del robo B/Inseguridad', 'Huila', 'Colombia', 9879443);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ROADCHESS', 'Carlos', 'Villagrán', '+573152378510', 'Clle 23 #12-14 B/Centro', 'Huila', 'Colombia', 1138826);
+VALUES ('ROADCHESS', 'Horacio', 'Gomez', '+573114105674', 'Clle del robo B/Inseguridad', 'Huila', 'Colombia', 1138826);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
 VALUES ('SLIGO UNITY', 'Karina', 'Montes', '+573101052329', 'Cra 10 #19-22', 'Huila', 'Colombia', 3906789);
@@ -654,4 +663,4 @@ INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departament
 VALUES ('ROADCHESS', 'Horacio', 'Gomez', '+573117575674', 'Clle del robo B/Inseguridad', 'Huila', 'Colombia', 1038289);
 
 INSERT INTO cliente (Empresa, Nombre, Apellido, Telefono, Direccion, Departamento, Pais, Empleado_Atiende)
-VALUES ('ROADCHESS', 'Carlos', 'Villagrán', '+573152888510', 'Clle 23 #12-14 B/Centro', 'Huila', 'Colombia', 4567394);
+VALUES ('COCA COLA', 'Saúl', 'Lopez', '+573111055674', 'Cra 6A #19-35 B/El Rosario', 'Huila', 'Colombia', 1084973;)
